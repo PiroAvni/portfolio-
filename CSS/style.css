@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  
+}
+html{
+  height: 100%;
+}
+/*main body*/
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  display: grid;
+  grid-column: 3.5rem auto fit-content (8rem);
+  grid-template-areas: "header", "section", "main","footer"
+}
+h1{
+  font-size:  6rem;
+}
+
+h2, p{
+  font-size: 4rem;
+}
+
+
+
+
+
+
+.container{
+  width: auto;
+  background-color: #57cdd3;
+  top:0;
+  left: 0;
+;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+}
+.navbar{
+font-size: 6rem;
+flex-direction: row
+
+}
+.navbar ul{
+  flex-direction: row;
+  list-style: none;
+}
